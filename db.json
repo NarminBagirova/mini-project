@@ -1,0 +1,94 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Half sleeve T-shirt",
+        "price": 643,
+        "image": "assets/products/shirt1.png",
+        "isFeatured": true
+      },
+      {
+        "id": 2,
+        "name": "Brown hat craft",
+        "price": 547,
+        "image": "assets/products/hat1.png",
+        "rating": 5,
+        "isNew": true,
+        "isFeatured": true
+      },
+      {
+        "id": 3,
+        "name": "Slim-Fit Formal Suit Blazer",
+        "price": 534,
+        "image": "assets/products/blazer.png",
+        "isFeatured": true
+      },
+      {
+        "id": 4,
+        "name": "Retro Tie-Dye Color Splash T-Shirt",
+        "price": 543,
+        "image": "assets/products/tshirt-red.png",
+        "isFeatured": true
+      },
+  
+      {
+        "id": 5,
+        "name": "Geometric Print Relaxed Fit Tee",
+        "price": 753,
+        "image": "assets/products/tee1.png",
+        "isFeatured": true
+      },
+      {
+        "id": 6,
+        "name": "Floral Pattern Colorful Summer Tee",
+        "price": 765,
+        "oldPrice": 876,
+        "image": "assets/products/tee2.png",
+        "isFeatured": true,
+        "sale": true
+      },
+      {
+        "id": 7,
+        "name": "Black hat craft",
+        "price": 435,
+        "image": "assets/products/hat2.png",
+        "isFeatured": true
+      },
+      {
+        "id": 8,
+        "name": "Warm Fit-and-Flare Winter Dress with Fleece Lining",
+        "price": 654,
+        "oldPrice": 754,
+        "image": "assets/products/pink-dress.png",
+        "isFeatured": true,
+        "isNew": true,
+        "sale": true,
+        "rating": 4
+      },
+      {
+        "id": 9,
+        "name": "Smooth Shine Bald Head Moisturizer",
+        "price": 532,
+        "image": "assets/products/moisturizer.png",
+        "isNew": true,
+        "soldOut": true
+      },
+      {
+        "id": 10,
+        "name": "Rainbow Gradient Unisex T-Shirt",
+        "price": 653,
+        "oldPrice": 0,
+        "description": "High-quality rainbow-themed unisex t-shirt.",
+        "returnPolicy": "Returns accepted within 30 days.",
+        "colors": ["#1b1b1b", "#c33"],
+        "sizes": ["S", "M", "L"],
+        "images": [
+          "assets/products/rainbow-shirt.png",
+          "assets/products/plaid-shirt.png",
+          "assets/products/blue-shirt.png",
+          "assets/products/blazer.png"
+        ]
+      }      
+    ]
+  }
+  

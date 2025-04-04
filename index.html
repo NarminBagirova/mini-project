@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rivon Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="bg-black text-white py-2">
+        <div class="container d-flex justify-content-between align-items-center small">
+            <div>
+                <i class="bi bi-telephone me-2"></i> +0123456789
+                <i class="bi bi-envelope ms-4 me-2"></i> Digizen@domain.com
+            </div>
+            <div>
+                Free Delivery on <strong>orders</strong> over $260
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Rivon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+                <div class="d-flex gap-3">
+                    <i class="bi bi-search"></i>
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-bag"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <section class="hero-section position-relative">
+                    <img src="assets/images/slide1.png" class="img-fluid w-100" alt="Hero Banner">
+                    <div class="hero-content position-absolute top-50 start-0 translate-middle-y ps-5">
+                        <p class="text-uppercase text-dark fw-light mb-2" style="letter-spacing: 1px;">Elegance is
+                            Elimination</p>
+                        <h1 class="display-4 fw-bold text-dark mb-3">Stay Ahead of<br>The Trends</h1>
+                        <p class="text-muted mb-4">Tell your brand’s story through images</p>
+                        <a href="#" class="btn btn-dark d-inline-flex align-items-center">
+                            Collections <i class="ms-2 bi bi-arrow-up-right"></i>
+                        </a>
+                    </div>
+                </section>
+            </div>
+            <div class="carousel-item">
+                <section class="hero-section position-relative">
+                    <img src="assets/images/slide2.png" class="img-fluid w-100" alt="Slide 2">
+                    <div class="hero-content position-absolute top-50 start-0 translate-middle-y ps-5">
+                        <p class="text-uppercase text-dark fw-light mb-2" style="letter-spacing: 1px;">Elegance is
+                            Elimination</p>
+                        <h1 class="display-4 fw-bold text-dark mb-3">Stay Ahead of<br>The Trends</h1>
+                        <p class="text-muted mb-4">Tell your brand’s story through images</p>
+                        <a href="#" class="btn btn-dark d-inline-flex align-items-center">
+                            Shop Now <i class="ms-2 bi bi-arrow-up-right"></i>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section class="py-5 bg-white border-bottom">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 mb-4">
+                    <i class="bi bi-truck fs-1 text-dark mb-2"></i>
+                    <h6 class="fw-bold">Free Shipping</h6>
+                    <p class="text-muted small">On all orders over $75.00</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <i class="bi bi-gift fs-1 text-dark mb-2"></i>
+                    <h6 class="fw-bold">Money Back</h6>
+                    <p class="text-muted small">30 days money back guarantee</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <i class="bi bi-award fs-1 text-dark mb-2"></i>
+                    <h6 class="fw-bold">Friendly Support</h6>
+                    <p class="text-muted small">Team always ready for you</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <i class="bi bi-credit-card fs-1 text-dark mb-2"></i>
+                    <h6 class="fw-bold">Secure Payment</h6>
+                    <p class="text-muted small">On all orders over $75.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container text-center mb-5">
+            <h2 class="fw-bold">Featured Products</h2>
+            <p class="text-muted">We have your occasion covered</p>
+        </div>
+
+        <div class="container">
+            <div class="row g-4" id="product-list">
+            </div>
+        </div>
+    </section>
+    <section class="promo-section py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="promo-box position-relative overflow-hidden rounded p-4 h-100"
+                        style="background-color: #eaf1f1;">
+                        <img src="assets/images/banner-1.png" class="promo-img position-absolute end-0 bottom-0"
+                            alt="Man">
+                        <div class="promo-text position-relative">
+                            <p class="text-uppercase small text-muted">Top Collections</p>
+                            <h3 class="fw-bold">Top Trends Style</h3>
+                            <a href="#" class="text-decoration-underline">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="promo-box position-relative overflow-hidden rounded p-4 h-100"
+                        style="background-color: #fff3e8;">
+                        <img src="assets/images/banner-2.png" class="promo-img position-absolute end-0 bottom-0"
+                            alt="Woman">
+                        <div class="promo-text position-relative">
+                            <p class="text-uppercase small text-muted">Online Exclusive</p>
+                            <h3 class="fw-bold">Here Your Style</h3>
+                            <a href="#" class="text-decoration-underline">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="scrolling-banner bg-light border-top border-bottom py-2">
+        <div class="scrolling-text">
+            ★ FREE DELIVERY ON ALL ORDERS OVER $75.00 ★ SIGN UP AND GET 10% OFF ★ NEW STYLES WEEKLY
+        </div>
+    </section>
+    <section class="new-arrivals py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">New Arrivals</h2>
+                <p class="text-muted">The best quality products are waiting for you & choose it now.</p>
+            </div>
+            <div class="row g-4" id="new-arrivals-list">
+            </div>
+        </div>
+    </section>
+    <section class="promo-section position-relative d-flex align-items-center" style="background-color: #ffffff; padding: 60px 0;">
+        <div class="container-fluid px-4 px-md-5">
+          <div class="row align-items-center">
+      
+            <!-- Sol hissə -->
+            <div class="col-lg-6 position-relative" style="background-color: #f5f5f5; border-top-left-radius: 20px; border-bottom-left-radius: 20px; padding: 60px 40px; min-height: 420px;">
+              <div class="position-relative z-2">
+                <p class="text-muted mb-2">For Online Purchase</p>
+                <h1 class="display-3 fw-bold">50% OFF</h1>
+                <a href="#" class="btn btn-outline-dark d-inline-flex align-items-center px-4 py-2 mt-3">
+                  View Collections <i class="bi bi-arrow-up-right ms-2"></i>
+                </a>
+              </div>
+      
+              <!-- FAISON – arxa plan yazısı şəkil kimi -->
+              <img src="assets/images/text-image-1.png"
+                   alt="FAISON"
+                   class="position-absolute start-0 bottom-0 w-100"
+                   style="z-index: 1; opacity: 4; pointer-events: none;">
+            </div>
+      
+            <div class="col-lg-6 position-relative" style="background-color: #ffffff; border-top-right-radius: 20px; border-bottom-right-radius: 20px;">
+              <div class="position-relative">
+                <img src="assets/images/people.png"
+                     class="img-fluid"
+                     alt="Fashion Group"
+                     style="z-index: 2; position: relative;">
+      
+                     <img src="assets/images/circle.png"
+                     alt="Fashion Circle"
+                     class="position-absolute"
+                     style="top: 48%; left: 50%; transform: translate(-50%, -50%); width: 100px; z-index: 5;">
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+      
+      </section>        
+    
