@@ -1,4 +1,17 @@
-.opacity-10 {
-    opacity: 0.05 !important;
+.scrolling-text {
+  white-space: nowrap;
+  display: inline-block;
+  animation: scrollText 20s linear infinite;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
   }
-  
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
