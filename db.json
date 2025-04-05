@@ -81,13 +81,7 @@
         "description": "High-quality rainbow-themed unisex t-shirt.",
         "returnPolicy": "Returns accepted within 30 days.",
         "colors": ["#1b1b1b", "#c33"],
-        "sizes": ["S", "M", "L"],
-        "images": [
-          "assets/products/rainbow-shirt.png",
-          "assets/products/plaid-shirt.png",
-          "assets/products/blue-shirt.png",
-          "assets/products/blazer.png"
-        ]
+        "sizes": ["S", "M", "L"]
       }      
     ]
   }
