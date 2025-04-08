@@ -143,3 +143,44 @@ iframe {
   height: 450px;
   border: 0;
 }
+
+.dropdown-menu {
+  min-width: 200px;
+  padding: 10px 0;
+  font-size: 0.95rem;
+  border-radius: 0;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.dropdown-item {
+  padding: 8px 20px;
+  transition: background 0.2s;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+@media (min-width: 992px) {
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+.underline-always {
+  text-decoration: underline;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.breadcrumb-item a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
