@@ -2,458 +2,531 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rivon Demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rivon Demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="bg-black text-white py-2">
-        <div class="container">
-          <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small text-white">
-            <div class="mb-2 mb-md-0">
-              <i class="bi bi-telephone me-2"></i> +0123456789
-              <i class="bi bi-envelope ms-4 me-2"></i> Digizen@domain.com
-            </div>
-            <div class="text-center mb-2 mb-md-0">
-              Free Delivery on <strong>orders</strong> over $260
-            </div>
-            <div class="d-flex align-items-center gap-3">
-              <span>USD $</span>
-              <span>English</span>
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-instagram"></i>
-              <i class="bi bi-youtube"></i>
-              <i class="bi bi-twitter"></i>
-              <i class="bi bi-pinterest"></i>
-            </div>
-          </div>
-        </div>
-      </header>
-      
-    </header>
+  <header class="bg-black text-white">
+    <div class="topbar-container d-flex flex-column flex-md-row justify-content-between align-items-center">
 
-    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="assets/images/rivon-logo.png" alt="Rivon" style="height: 35px;">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
-      
-            <div class="d-flex align-items-center gap-3">
-              <a href="#" class="position-relative text-dark">
-                <i class="bi bi-search fs-5"></i>
-              </a>
-              <a href="#" class="position-relative text-dark">
-                <i class="bi bi-heart fs-5"></i>
-                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark text-white" style="font-size: 0.6rem;">0</span>
-              </a>
-              <a href="#" class="position-relative text-dark">
-                <i class="bi bi-bag fs-5"></i>
-                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark text-white" style="font-size: 0.6rem;">0</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <section class="hero-section position-relative">
-              <img src="assets/images/slide1.png" class="img-fluid w-100" alt="Hero Banner">
-              <div class="hero-content position-absolute top-50 start-0 translate-middle-y ps-5">
-                <p class="text-uppercase text-dark fw-light mb-2 fade-in-up delay-1" style="letter-spacing: 1px;">
-                  Elegance is Elimination
-                </p>
-                <h1 class="display-4 fw-bold text-dark mb-3 fade-in-up delay-2">
-                  Stay Ahead of<br>The Trends
-                </h1>
-                <p class="text-muted mb-4 fade-in-up delay-3">
-                  Tell your brand’s story through images
-                </p>
-                <a href="#" class="btn btn-dark d-inline-flex align-items-center fade-in-up delay-3">
-                  Collections <i class="ms-2 bi bi-arrow-up-right"></i>
-                </a>
-              </div>
-            </section>
-          </div>
-      
-          <div class="carousel-item">
-            <section class="hero-section position-relative">
-              <img src="assets/images/slide2.png" class="img-fluid w-100" alt="Slide 2">
-              <div class="hero-content position-absolute top-50 start-0 translate-middle-y ps-5">
-                <p class="text-uppercase text-dark fw-light mb-2 fade-in-up delay-1" style="letter-spacing: 1px;">
-                  Elegance is Elimination
-                </p>
-                <h1 class="display-4 fw-bold text-dark mb-3 fade-in-up delay-2">
-                  Stay Ahead of<br>The Trends
-                </h1>
-                <p class="text-muted mb-4 fade-in-up delay-3">
-                  Tell your brand’s story through images
-                </p>
-                <a href="#" class="btn btn-dark d-inline-flex align-items-center fade-in-up delay-3">
-                  Shop Now <i class="ms-2 bi bi-arrow-up-right"></i>
-                </a>
-              </div>
-            </section>
-          </div>
-        </div>
-      
-        <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      
-    <section class="py-5 bg-white border-bottom">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-3 mb-4">
-                    <i class="bi bi-truck fs-1 text-dark mb-2"></i>
-                    <h6 class="fw-bold">Free Shipping</h6>
-                    <p class="text-muted small">On all orders over $75.00</p>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <i class="bi bi-gift fs-1 text-dark mb-2"></i>
-                    <h6 class="fw-bold">Money Back</h6>
-                    <p class="text-muted small">30 days money back guarantee</p>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <i class="bi bi-award fs-1 text-dark mb-2"></i>
-                    <h6 class="fw-bold">Friendly Support</h6>
-                    <p class="text-muted small">Team always ready for you</p>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <i class="bi bi-credit-card fs-1 text-dark mb-2"></i>
-                    <h6 class="fw-bold">Secure Payment</h6>
-                    <p class="text-muted small">On all orders over $75.00</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="py-5">
-        <div class="container text-center mb-5">
-            <h2 class="fw-bold">Featured Products</h2>
-            <p class="text-muted">We have your occasion covered</p>
-        </div>
-
-        <div class="container">
-            <div class="row g-4" id="product-list">
-            </div>
-        </div>
-    </section>
-    <section class="py-5">
-        <div class="container">
-          <div class="row g-4">
-      
-            <div class="col-md-6">
-              <div class="position-relative rounded-4 overflow-hidden px-5 py-5 d-flex flex-column justify-content-between" style="background-color: #fdece5; min-height: 450px; z-index: 2;">
-                <div style="z-index: 2; position: relative;">
-                  <p class="text-uppercase text-muted small mb-2">Top Collections</p>
-                  <h3 class="fw-bold fs-2 mb-0">Top Trends Style</h3>
-                </div>
-                <div style="z-index: 2; position: relative;">
-                  <a href="#" class="text-decoration-none text-dark fw-medium d-inline-block border-bottom border-dark pb-1">
-                    Shop Now
-                  </a>
-                </div>
-                <img src="assets/images/banner-1.png"
-                     class="position-absolute bottom-0 end-0"
-                     style="max-height: 100%; z-index: 0;"
-                     alt="Banner 1">
-              </div>
-            </div>
-    
-            <div class="col-md-6">
-              <div class="position-relative rounded-4 overflow-hidden px-5 py-5 d-flex flex-column justify-content-between" style="background-color: #f8f1df; min-height: 450px; z-index: 2;">
-                <div style="z-index: 2; position: relative;">
-                  <p class="text-uppercase text-muted small mb-2">Premium - Online Exclusive</p>
-                  <h3 class="fw-bold fs-2 mb-0">Here Your Style</h3>
-                </div>
-                <div style="z-index: 2; position: relative;">
-                  <a href="#" class="text-decoration-none text-dark fw-medium d-inline-block border-bottom border-dark pb-1">
-                    Shop Now
-                  </a>
-                </div>
-                <img src="assets/images/banner-2.png"
-                     class="position-absolute bottom-0 end-0"
-                     style="max-height: 100%; z-index: 0;"
-                     >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    <section class="scrolling-banner bg-light border-top border-bottom py-2">
-        <div class="scrolling-text">
-            ★ FREE DELIVERY ON ALL ORDERS OVER $75.00 ★ SIGN UP AND GET 10% OFF ★ NEW STYLES WEEKLY
-        </div>
-    </section>
-    <section class="new-arrivals py-5">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="fw-bold">New Arrivals</h2>
-                <p class="text-muted">The best quality products are waiting for you & choose it now.</p>
-            </div>
-            <div class="row g-4" id="new-arrivals-list">
-            </div>
-        </div>
-    </section>
-    <section class="promo-section position-relative" style="background-color: #fff;">
-        <img src="assets/images/circle.png"
-             alt="Fashion Logo"
-             class="position-absolute"
-             style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; z-index: 5; pointer-events: none;">
-      
-        <div class="container-fluid px-0">
-          <div class="row g-0 align-items-stretch" style="min-height: 500px;">
-          
-            <div class="col-lg-6 position-relative d-flex flex-column justify-content-center p-5" style="background-color: #f5f5f5;">
-              <div style="z-index: 2; position: relative;">
-                <p class="text-muted mb-2">For Online Purchase</p>
-                <h1 class="display-3 fw-bold">50% OFF</h1>
-                <a href="#" class="btn btn-outline-dark d-inline-flex align-items-center px-4 py-2 mt-3">
-                  View Collections <i class="bi bi-arrow-up-right ms-2"></i>
-                </a>
-              </div>
-              <img src="assets/images/text-image-1.png"
-                   alt="FAISON"
-                   class="position-absolute bottom-0 start-0 w-100"
-                   style="opacity: 0.1; pointer-events: none; z-index: 1;">
-            </div>
-
-            <div class="col-lg-6 position-relative overflow-hidden">
-              <img src="assets/images/people.png"
-                   alt="People"
-                   class="img-fluid w-100 h-100"
-                   style="object-fit: cover;">
-            </div>
-      
-          </div>
-        </div>
-      </section>
-      
-    <section class="py-5">
-        <div class="container">
-            <div class="row g-5">
-
-                <div class="col-lg-6">
-                    <img src="assets/images/rainbow-gradient.png" alt="" class="img-fluid mb-3">
-                    <div class="d-flex gap-3">
-                        <img src="assets/images/rainbow-gradient.png" alt="" class="img-thumbnail" width="100">
-                        <img src="assets/images/rainbow-gradient2.png" alt="" class="img-thumbnail" width="100">
-                        <img src="assets/images/rainbow-gradient3.png" alt="" class="img-thumbnail" width="100">
-                        <img src="assets/images/rainbow-gradient4.png" alt="" class="img-thumbnail" width="100">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <small class="text-uppercase text-muted">Fashion</small>
-                    <h2 class="mb-3">Rainbow Gradient Unisex T-Shirt</h2>
-                    <h4 class="mb-1">$653.00</h4>
-                    <p class="text-muted small mb-4">Tax included.</p>
-
-                    <p class="fw-bold mb-1">Color: <span class="fw-normal">Rainbow</span></p>
-                    <div class="d-flex gap-2 mb-3">
-                        <button class="btn btn-outline-dark rounded-circle p-3 border-2"
-                            style="background-color: #000;"></button>
-                        <button class="btn btn-outline-dark rounded-circle p-3 border-2"
-                            style="background-color: #b4333a;"></button>
-                    </div>
-
-                    <p class="fw-bold mb-1">Size: <span class="fw-normal">S</span></p>
-                    <div class="d-flex gap-2 mb-3">
-                        <button class="btn btn-dark px-3">S</button>
-                        <button class="btn btn-outline-dark px-3">M</button>
-                        <button class="btn btn-outline-dark px-3">L</button>
-                    </div>
-
-                    <div class="d-flex flex-wrap align-items-center gap-3 mb-4">
-                        <div class="input-group" style="width: 150px;">
-                            <button class="btn btn-outline-dark" type="button">−</button>
-                            <input type="text" class="form-control text-center" value="1">
-                            <button class="btn btn-outline-dark" type="button">+</button>
-                        </div>
-                        <button class="btn btn-outline-dark px-4">Add To Cart</button>
-                    </div>
-                    <div class="mb-4">
-                        <button class="btn btn-dark w-100">Buy It Now</button>
-                    </div>
-
-                    <div class="accordion" id="productAccordion">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingDesc">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseDesc">
-                                    Description
-                                </button>
-                            </h2>
-                            <div id="collapseDesc" class="accordion-collapse collapse"
-                                data-bs-parent="#productAccordion">
-                                <div class="accordion-body">
-                                    This trendy unisex t-shirt features a vibrant rainbow gradient design, adding a pop
-                                    of color to any outfit.
-                                    Made with high-quality materials, it is both comfortable and stylish. Perfect for
-                                    expressing your unique style with confidence.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingReturn">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseReturn">
-                                    Return Policy
-                                </button>
-                            </h2>
-                            <div id="collapseReturn" class="accordion-collapse collapse"
-                                data-bs-parent="#productAccordion">
-                                <div class="accordion-body">
-                                    <h5>Shipping policy for our store</h5>
-                                    <p>We offer 1-2 business day delivery and 30 days money back guarantee. You can
-                                        contact our 24/7 support team for returns and inquiries.</p>
-                                    <ul>
-                                        <li>1-2 business days delivery</li>
-                                        <li>30 days money back</li>
-                                        <li>24/7 customer support</li>
-                                        <li>Free returns on all orders</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="d-flex gap-3 mt-4">
-                        <button class="btn btn-outline-dark"><i class="bi bi-facebook"></i> Facebook</button>
-                        <button class="btn btn-outline-dark"><i class="bi bi-twitter"></i> Twitter</button>
-                        <button class="btn btn-outline-dark"><i class="bi bi-share"></i> Share</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="video-section position-relative overflow-hidden rounded-4 mx-3 my-5">
-        <img src="assets/images/thumbnail.png" alt="Video Preview" class="img-fluid w-100">
-        <a href="#" class="position-absolute top-50 start-50 translate-middle 
-                      bg-white d-flex justify-content-center align-items-center shadow"
-            style="width: 90px; height: 90px; border-radius: 50%;">
-            <i class="bi bi-play-fill fs-1 text-dark"></i>
+      <div class="d-flex align-items-center gap-3 mb-2 mb-md-0">
+        <a href="tel:+0123456789" class="text-white text-decoration-none d-flex align-items-center">
+          <i class="bi bi-telephone me-1"></i> +0123456789
         </a>
-    </section>
-    <section class="shop-look-section py-5">
-        <div class="container">
-          <div class="row align-items-center">
+        <a href="mailto:Digizen@domain.com" class="text-white text-decoration-none d-flex align-items-center">
+          <i class="bi bi-envelope ms-3 me-1"></i> Digizen@domain.com
+        </a>
+      </div>
 
-            <div class="col-md-6">
-              <img src="assets/images/shop-the-look.png" alt="" class="img-fluid w-100">
-            </div>
-      
-            <div class="col-md-6 ps-md-5">
-              <h2 class="fw-bold display-5 mb-3">Shop the look</h2>
-              <p class="text-muted fs-5 mb-4">
-                Here is your chance to upgrade your wardrobe with a variation
-                <br><span class="d-block mt-3">of styles and fits that are both.</span>
-              </p>
-              <a href="#" class="btn btn-dark px-4 py-2 fw-semibold">
-                DISCOVER NOW
-              </a>
-            </div>
-      
-          </div>
+      <div id="freeDeliveryText" class="text-center mb-2 mb-md-0">
+        Free Delivery on <strong>orders</strong> over <span id="priceValue">260</span> <span
+          id="currencySymbol">$</span>
+      </div>
+
+      <div class="d-flex align-items-center gap-2">
+
+        <div class="dropdown">
+          <button class="btn btn-sm text-white dropdown-toggle p-0 bg-transparent border-0" type="button"
+            data-bs-toggle="dropdown">
+            <span id="selectedCurrency">AZN</span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#" onclick="changeCurrency('AZN')">AZN</a></li>
+            <li><a class="dropdown-item" href="#" onclick="changeCurrency('USD')">USD</a></li>
+            <li><a class="dropdown-item" href="#" onclick="changeCurrency('EUR')">EUR</a></li>
+          </ul>
         </div>
-      </section>
 
-      <section class="py-5">
-        <div class="container">
-          <div class="row g-4">
-      
-            <div class="col-md-6">
-              <div class="bg-light rounded-4 p-4 text-center h-100 shadow-sm">
-                <img src="assets/images/testimonial-1.png" class="rounded-circle mx-auto mb-3" width="70" height="70" alt="Michael">
-                <h6 class="mb-1">Smart Home Assistant</h6>
-                <div class="mb-3 text-warning">
-                  <i class="bi bi-star-fill mx-1"></i>
-                  <i class="bi bi-star-fill mx-1"></i>
-                  <i class="bi bi-star-fill mx-1"></i>
-                  <i class="bi bi-star-fill mx-1"></i>
-                  <i class="bi bi-star-fill mx-1"></i>
+        <div class="dropdown">
+          <button class="btn btn-sm text-white dropdown-toggle p-0 bg-transparent border-0" type="button"
+            data-bs-toggle="dropdown">
+            <span id="selectedLanguage">English</span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#" onclick="changeLanguage('en')">English</a></li>
+            <li><a class="dropdown-item" href="#" onclick="changeLanguage('az')">Azərbaycan</a></li>
+            <li><a class="dropdown-item" href="#" onclick="changeLanguage('ru')">Русский</a></li>
+          </ul>
+        </div>
+
+        <a href="https://facebook.com" target="_blank" class="text-white"><i class="bi bi-facebook"></i></a>
+        <a href="https://instagram.com" target="_blank" class="text-white"><i class="bi bi-instagram"></i></a>
+        <a href="https://youtube.com" target="_blank" class="text-white"><i class="bi bi-youtube"></i></a>
+        <a href="https://twitter.com" target="_blank" class="text-white"><i class="bi bi-twitter"></i></a>
+        <a href="https://pinterest.com" target="_blank" class="text-white"><i class="bi bi-pinterest"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/rivon-logo.png" alt="" style="height: 35px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item dropdown position-static">
+            <a class="nav-link dropdown-toggle" href="#" id="shopMenu" data-bs-toggle="dropdown" aria-expanded="false">
+              Shop
+            </a>
+
+            <div class="dropdown-menu mega-menu w-100 p-4 mt-0 border-0 shadow">
+              <div class="container">
+                <div class="row gy-4">
+
+                  <div class="col-md-2 col-6">
+                    <h6 class="fw-bold text-uppercase mb-2">Instruments</h6>
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="text-muted d-block py-1">Cotton Full shirt</a></li>
+                      <li><a href="#" class="text-muted d-block py-1">Resin Strap</a></li>
+                      <li><a href="#" class="text-muted d-block py-1">Boheme Rose Gold</a></li>
+                      <li><a href="#" class="text-muted d-block py-1">Hat craft</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-md-2 col-6">
+                    <h6 class="fw-bold text-uppercase mb-2">Product</h6>
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="text-muted d-block py-1">T-shirt</a></li>
+                      <li><a href="#" class="text-muted d-block py-1">Rainbow T-shirt</a></li>
+                      <li><a href="#" class="text-muted d-block py-1">Waist denim</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-md-2 col-6">
+                    <h6 class="fw-bold text-uppercase mb-2">Accessories</h6>
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="text-muted d-block py-1">Rabbit</a></li>
+                      <li><a href="#" class="text-muted d-block py-1">Cattery Cages</a></li>
+                      <li><a href="#" class="text-muted d-block py-1">Leather</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-md-3">
+                    <img src="assets/images/insta-3.png" class="img-fluid mb-2" alt="Featured">
+                    <h6 class="text-center fw-bold">Featured</h6>
+                  </div>
+
+                  <div class="col-md-3">
+                    <img src="assets/images/insta-1.png" class="img-fluid mb-2" alt="New Arrivals">
+                    <h6 class="text-center fw-bold">New Arrivals</h6>
+                  </div>
+
                 </div>
-                <p class="mb-1">“Thanks guys, keep up the good work! Great job, I will definitely be ordering again!”</p>
-                <p class="mb-3">Thanks guys, keep up the good work! Garden was worth a fortune to my company.”</p>
-                <h6 class="fw-bold mb-0">Michael L.</h6>
-                <p class="text-muted mb-0">London, UK</p>
               </div>
             </div>
+          </li>
 
-            <div class="col-md-6">
-              <div class="bg-light rounded-4 p-4 text-center h-100 shadow-sm">
-                <img src="assets/images/testimonial2.png" class="rounded-circle mx-auto mb-3" width="70" height="70" alt="Emily">
-                <h6 class="mb-1">Smart Home Assistant</h6>
-                <div class="mb-3 text-warning">
-                  <i class="bi bi-star-fill mx-1"></i>
-                  <i class="bi bi-star-fill mx-1"></i>
-                  <i class="bi bi-star-fill mx-1"></i>
-                  <i class="bi bi-star-fill mx-1"></i>
-                  <i class="bi bi-star-fill mx-1"></i>
-                </div>
-                <p class="mb-1">“Fringilla nec adipiscing eu purus pellentesque adipiscing neque odio ac tincidunt.</p>
-                <p class="mb-3">Diam platea felis leo nunc. Pharetra fermentum neque. lorem text more”</p>
-                <h6 class="fw-bold mb-0">Emily T.</h6>
-                <p class="text-muted mb-0">Sydney, Australia</p>
-              </div>
-            </div>
-      
-          </div>
+          <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="d-flex align-items-center gap-3">
+          <a href="#" class="position-relative text-dark">
+            <i class="bi bi-search fs-5"></i>
+          </a>
+          <a href="#" class="position-relative text-dark">
+            <i class="bi bi-heart fs-5"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark text-white"
+              style="font-size: 0.6rem;">0</span>
+          </a>
+          <a href="#" class="position-relative text-dark">
+            <i class="bi bi-bag fs-5"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark text-white"
+              style="font-size: 0.6rem;">0</span>
+          </a>
         </div>
-      </section>
-         <section class="py-5">
-  <div class="container-fluid px-0">
-    <h2 class="fw-bold text-center mb-2">Follow @Rivon</h2>
-    <p class="text-muted text-center mb-4">The best quality products are waiting for you & choose it now.</p>
-
-    <div class="d-flex justify-content-between no-gutters overflow-hidden">
-      <div class="insta-img-wrapper">
-        <img src="assets/images/insta-1.png" alt="">
-        <div class="insta-hover"><i class="bi bi-instagram"></i></div>
-      </div>
-      <div class="insta-img-wrapper">
-        <img src="assets/images/insta-2.png" alt="">
-        <div class="insta-hover"><i class="bi bi-instagram"></i></div>
-      </div>
-      <div class="insta-img-wrapper">
-        <img src="assets/images/insta-3.png" alt="">
-        <div class="insta-hover"><i class="bi bi-instagram"></i></div>
-      </div>
-      <div class="insta-img-wrapper">
-        <img src="assets/images/insta-4.png" alt="">
-        <div class="insta-hover"><i class="bi bi-instagram"></i></div>
-      </div>
-      <div class="insta-img-wrapper">
-        <img src="assets/images/insta-5.png" alt="">
-        <div class="insta-hover"><i class="bi bi-instagram"></i></div>
       </div>
     </div>
+  </nav>
+  <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <section class="hero-section position-relative">
+          <img src="assets/images/slide1.png" class="img-fluid w-100" alt="">
+          <div class="hero-content position-absolute top-50 start-0 translate-middle-y ps-5">
+            <p class="text-uppercase text-dark fw-light mb-2 fade-in-up delay-1" style="letter-spacing: 1px;">
+              Elegance is Elimination
+            </p>
+            <h1 class="display-4 fw-bold text-dark mb-3 fade-in-up delay-2">
+              Stay Ahead of<br>The Trends
+            </h1>
+            <p class="text-muted mb-4 fade-in-up delay-3">
+              Tell your brand’s story through images
+            </p>
+            <a href="#" class="btn btn-dark d-inline-flex align-items-center fade-in-up delay-3">
+              Collections <i class="ms-2 bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <div class="carousel-item">
+        <section class="hero-section position-relative">
+          <img src="assets/images/slide2.png" class="img-fluid w-100" alt="">
+          <div class="hero-content position-absolute top-50 start-0 translate-middle-y ps-5">
+            <p class="text-uppercase text-dark fw-light mb-2 fade-in-up delay-1" style="letter-spacing: 1px;">
+              Elegance is Elimination
+            </p>
+            <h1 class="display-4 fw-bold text-dark mb-3 fade-in-up delay-2">
+              Stay Ahead of<br>The Trends
+            </h1>
+            <p class="text-muted mb-4 fade-in-up delay-3">
+              Tell your brand’s story through images
+            </p>
+            <a href="#" class="btn btn-dark d-inline-flex align-items-center fade-in-up delay-3">
+              Shop Now <i class="ms-2 bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-</section>
-<footer class="bg-lightblue text-dark pt-5 pb-4">
+
+  <section class="py-5 bg-white border-bottom">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-3 mb-4">
+          <i class="bi bi-truck fs-1 text-dark mb-2"></i>
+          <h6 class="fw-bold">Free Shipping</h6>
+          <p class="text-muted small">On all orders over $75.00</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <i class="bi bi-gift fs-1 text-dark mb-2"></i>
+          <h6 class="fw-bold">Money Back</h6>
+          <p class="text-muted small">30 days money back guarantee</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <i class="bi bi-award fs-1 text-dark mb-2"></i>
+          <h6 class="fw-bold">Friendly Support</h6>
+          <p class="text-muted small">Team always ready for you</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <i class="bi bi-credit-card fs-1 text-dark mb-2"></i>
+          <h6 class="fw-bold">Secure Payment</h6>
+          <p class="text-muted small">On all orders over $75.00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container text-center mb-5">
+      <h2 class="fw-bold">Featured Products</h2>
+      <p class="text-muted">We have your occasion covered</p>
+    </div>
+
+    <div class="container">
+      <div class="row g-4" id="product-list">
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+
+        <div class="col-md-6">
+          <div class="position-relative rounded-4 overflow-hidden px-5 py-5 d-flex flex-column justify-content-between"
+            style="background-color: #fdece5; min-height: 450px; z-index: 2;">
+            <div style="z-index: 2; position: relative;">
+              <p class="text-uppercase text-muted small mb-2">Top Collections</p>
+              <h3 class="fw-bold fs-2 mb-0">Top Trends Style</h3>
+            </div>
+            <div style="z-index: 2; position: relative;">
+              <a href="#"
+                class="text-decoration-none text-dark fw-medium d-inline-block border-bottom border-dark pb-1">
+                Shop Now
+              </a>
+            </div>
+            <img src="assets/images/banner-1.png" class="position-absolute bottom-0 end-0"
+              style="max-height: 100%; z-index: 0;">
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="position-relative rounded-4 overflow-hidden px-5 py-5 d-flex flex-column justify-content-between"
+            style="background-color: #f8f1df; min-height: 450px; z-index: 2;">
+            <div style="z-index: 2; position: relative;">
+              <p class="text-uppercase text-muted small mb-2">Premium - Online Exclusive</p>
+              <h3 class="fw-bold fs-2 mb-0">Here Your Style</h3>
+            </div>
+            <div style="z-index: 2; position: relative;">
+              <a href="#"
+                class="text-decoration-none text-dark fw-medium d-inline-block border-bottom border-dark pb-1">
+                Shop Now
+              </a>
+            </div>
+            <img src="assets/images/banner-2.png" class="position-absolute bottom-0 end-0"
+              style="max-height: 100%; z-index: 0;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="scrolling-banner bg-light border-top border-bottom py-2">
+    <div class="scrolling-text">
+      ★ FREE DELIVERY ON ALL ORDERS OVER $75.00 ★ SIGN UP AND GET 10% OFF ★ NEW STYLES WEEKLY
+    </div>
+  </section>
+  <section class="new-arrivals py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">New Arrivals</h2>
+        <p class="text-muted">The best quality products are waiting for you & choose it now.</p>
+      </div>
+      <div class="row g-4" id="new-arrivals-list">
+      </div>
+    </div>
+  </section>
+  <section class="promo-section position-relative" style="background-color: #fff;">
+    <img src="assets/images/circle.png" class="position-absolute"
+      style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; z-index: 5; pointer-events: none;">
+
+    <div class="container-fluid px-0">
+      <div class="row g-0 align-items-stretch" style="min-height: 500px;">
+
+        <div class="col-lg-6 position-relative d-flex flex-column justify-content-center p-5"
+          style="background-color: #f5f5f5;">
+          <div style="z-index: 2; position: relative;">
+            <p class="text-muted mb-2">For Online Purchase</p>
+            <h1 class="display-3 fw-bold">50% OFF</h1>
+            <a href="#" class="btn btn-outline-dark d-inline-flex align-items-center px-4 py-2 mt-3">
+              View Collections <i class="bi bi-arrow-up-right ms-2"></i>
+            </a>
+          </div>
+          <img src="assets/images/text-image-1.png" class="position-absolute bottom-0 start-0 w-100"
+            style="opacity: 0.1; pointer-events: none; z-index: 1;">
+        </div>
+
+        <div class="col-lg-6 position-relative overflow-hidden">
+          <img src="assets/images/people.png" class="img-fluid w-100 h-100" style="object-fit: cover;">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-5">
+
+        <div class="col-lg-6">
+          <img src="assets/images/rainbow-gradient.png" alt="" class="img-fluid mb-3">
+          <div class="d-flex gap-3">
+            <img src="assets/images/rainbow-gradient.png" alt="" class="img-thumbnail" width="100">
+            <img src="assets/images/rainbow-gradient2.png" alt="" class="img-thumbnail" width="100">
+            <img src="assets/images/rainbow-gradient3.png" alt="" class="img-thumbnail" width="100">
+            <img src="assets/images/rainbow-gradient4.png" alt="" class="img-thumbnail" width="100">
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <small class="text-uppercase text-muted">Fashion</small>
+          <h2 class="mb-3">Rainbow Gradient Unisex T-Shirt</h2>
+          <h4 class="mb-1">$653.00</h4>
+          <p class="text-muted small mb-4">Tax included.</p>
+
+          <p class="fw-bold mb-1">Color: <span class="fw-normal">Rainbow</span></p>
+          <div class="d-flex gap-2 mb-3">
+            <button class="btn btn-outline-dark rounded-circle p-3 border-2" style="background-color: #000;"></button>
+            <button class="btn btn-outline-dark rounded-circle p-3 border-2"
+              style="background-color: #b4333a;"></button>
+          </div>
+
+          <p class="fw-bold mb-1">Size: <span class="fw-normal">S</span></p>
+          <div class="d-flex gap-2 mb-3">
+            <button class="btn btn-dark px-3">S</button>
+            <button class="btn btn-outline-dark px-3">M</button>
+            <button class="btn btn-outline-dark px-3">L</button>
+          </div>
+
+          <div class="d-flex flex-wrap align-items-center gap-3 mb-4">
+            <div class="input-group" style="width: 150px;">
+              <button class="btn btn-outline-dark" type="button">−</button>
+              <input type="text" class="form-control text-center" value="1">
+              <button class="btn btn-outline-dark" type="button">+</button>
+            </div>
+            <button class="btn btn-outline-dark px-4">Add To Cart</button>
+          </div>
+          <div class="mb-4">
+            <button class="btn btn-dark w-100">Buy It Now</button>
+          </div>
+
+          <div class="accordion" id="productAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingDesc">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseDesc">
+                  Description
+                </button>
+              </h2>
+              <div id="collapseDesc" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                <div class="accordion-body">
+                  This trendy unisex t-shirt features a vibrant rainbow gradient design, adding a pop
+                  of color to any outfit.
+                  Made with high-quality materials, it is both comfortable and stylish. Perfect for
+                  expressing your unique style with confidence.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingReturn">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseReturn">
+                  Return Policy
+                </button>
+              </h2>
+              <div id="collapseReturn" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                <div class="accordion-body">
+                  <h5>Shipping policy for our store</h5>
+                  <p>We offer 1-2 business day delivery and 30 days money back guarantee. You can
+                    contact our 24/7 support team for returns and inquiries.</p>
+                  <ul>
+                    <li>1-2 business days delivery</li>
+                    <li>30 days money back</li>
+                    <li>24/7 customer support</li>
+                    <li>Free returns on all orders</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex gap-3 mt-4">
+            <button class="btn btn-outline-dark"><i class="bi bi-facebook"></i> Facebook</button>
+            <button class="btn btn-outline-dark"><i class="bi bi-twitter"></i> Twitter</button>
+            <button class="btn btn-outline-dark"><i class="bi bi-share"></i> Share</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="video-section position-relative overflow-hidden rounded-4 mx-3 my-5">
+    <img src="assets/images/thumbnail.png" alt="" class="img-fluid w-100">
+    <a href="#" class="position-absolute top-50 start-50 translate-middle 
+                      bg-white d-flex justify-content-center align-items-center shadow"
+      style="width: 90px; height: 90px; border-radius: 50%;">
+      <i class="bi bi-play-fill fs-1 text-dark"></i>
+    </a>
+  </section>
+  <section class="shop-look-section py-5">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-md-6">
+          <img src="assets/images/shop-the-look.png" alt="" class="img-fluid w-100">
+        </div>
+
+        <div class="col-md-6 ps-md-5">
+          <h2 class="fw-bold display-5 mb-3">Shop the look</h2>
+          <p class="text-muted fs-5 mb-4">
+            Here is your chance to upgrade your wardrobe with a variation
+            <br><span class="d-block mt-3">of styles and fits that are both.</span>
+          </p>
+          <a href="#" class="btn btn-dark px-4 py-2 fw-semibold">
+            DISCOVER NOW
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+
+        <div class="col-md-6">
+          <div class="bg-light rounded-4 p-4 text-center h-100 shadow-sm">
+            <img src="assets/images/testimonial-1.png" class="rounded-circle mx-auto mb-3" width="70" height="70"
+              alt="">
+            <h6 class="mb-1">Smart Home Assistant</h6>
+            <div class="mb-3 text-warning">
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+            </div>
+            <p class="mb-1">“Thanks guys, keep up the good work! Great job, I will definitely be ordering again!”</p>
+            <p class="mb-3">Thanks guys, keep up the good work! Garden was worth a fortune to my company.”</p>
+            <h6 class="fw-bold mb-0">Michael L.</h6>
+            <p class="text-muted mb-0">London, UK</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="bg-light rounded-4 p-4 text-center h-100 shadow-sm">
+            <img src="assets/images/testimonial2.png" class="rounded-circle mx-auto mb-3" width="70" height="70" alt="">
+            <h6 class="mb-1">Smart Home Assistant</h6>
+            <div class="mb-3 text-warning">
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+            </div>
+            <p class="mb-1">“Fringilla nec adipiscing eu purus pellentesque adipiscing neque odio ac tincidunt.</p>
+            <p class="mb-3">Diam platea felis leo nunc. Pharetra fermentum neque. lorem text more”</p>
+            <h6 class="fw-bold mb-0">Emily T.</h6>
+            <p class="text-muted mb-0">Sydney, Australia</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container-fluid px-0">
+      <h2 class="fw-bold text-center mb-2">Follow @Rivon</h2>
+      <p class="text-muted text-center mb-4">The best quality products are waiting for you & choose it now.</p>
+
+      <div class="d-flex justify-content-between no-gutters overflow-hidden">
+        <div class="insta-img-wrapper">
+          <img src="assets/images/insta-1.png" alt="">
+          <div class="insta-hover"><i class="bi bi-instagram"></i></div>
+        </div>
+        <div class="insta-img-wrapper">
+          <img src="assets/images/insta-2.png" alt="">
+          <div class="insta-hover"><i class="bi bi-instagram"></i></div>
+        </div>
+        <div class="insta-img-wrapper">
+          <img src="assets/images/insta-3.png" alt="">
+          <div class="insta-hover"><i class="bi bi-instagram"></i></div>
+        </div>
+        <div class="insta-img-wrapper">
+          <img src="assets/images/insta-4.png" alt="">
+          <div class="insta-hover"><i class="bi bi-instagram"></i></div>
+        </div>
+        <div class="insta-img-wrapper">
+          <img src="assets/images/insta-5.png" alt="">
+          <div class="insta-hover"><i class="bi bi-instagram"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-lightblue text-dark pt-5 pb-4">
     <div class="container">
       <div class="row gy-4">
         <div class="col-md-3">
@@ -462,7 +535,7 @@
           <p><strong>Email:</strong> info@fashionshop.com</p>
           <p><strong>Phone:</strong> (212)555-1234</p>
         </div>
-  
+
         <div class="col-md-3">
           <h6 class="fw-bold mb-3">Our Store</h6>
           <ul class="list-unstyled">
@@ -472,7 +545,7 @@
             <li>Medical Bath</li>
           </ul>
         </div>
-  
+
         <div class="col-md-3">
           <h6 class="fw-bold mb-3">Useful Links</h6>
           <ul class="list-unstyled">
@@ -482,7 +555,7 @@
             <li>Checkout</li>
           </ul>
         </div>
-  
+
         <div class="col-md-3">
           <h6 class="fw-bold mb-3">Sign Up for Email</h6>
           <p class="mb-3">Subscribe to our newsletter to receive news on update.</p>
@@ -495,26 +568,22 @@
           </div>
         </div>
       </div>
-  
+
       <hr class="my-4">
-  
+
       <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
         <p class="mb-2 mb-md-0">© 2025, Rivon Shopify Theme</p>
         <div class="d-flex gap-2">
-          <img src="assets/images/visa.png" alt="Visa" height="30">
-          <img src="assets/images/mastercard.png" alt="Mastercard" height="30">
-          <img src="assets/images/amex.png" alt="Amex" height="30">
-          <img src="assets/images/paypal.png" alt="PayPal" height="30">
-          <img src="assets/images/discover.png" alt="Discover" height="30">
+          <img src="assets/images/visa.png" alt="" height="30">
+          <img src="assets/images/mastercard.png" alt="" height="30">
+          <img src="assets/images/amex.png" alt="" height="30">
+          <img src="assets/images/paypal.png" alt="" height="30">
+          <img src="assets/images/discover.png" alt="" height="30">
         </div>
       </div>
     </div>
   </footer>
   <script src="assets/js/home.js"></script>
 </body>
+
 </html>
-  
-      
-      
-      
-    
